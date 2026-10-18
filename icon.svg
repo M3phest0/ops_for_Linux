@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Linux Ops Toolset">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#16233a"/>
+    </linearGradient>
+    <linearGradient id="term" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3b57"/>
+      <stop offset="1" stop-color="#1b2940"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <rect x="34" y="58" width="188" height="126" rx="18" fill="url(#term)" stroke="#3d5678" stroke-width="3"/>
+  <circle cx="58" cy="82" r="6" fill="#ff6b6b"/>
+  <circle cx="78" cy="82" r="6" fill="#ffd166"/>
+  <circle cx="98" cy="82" r="6" fill="#4ade80"/>
+  <path d="M62 118l26 20-26 20" fill="none" stroke="#4ade80" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="104" y="150" width="54" height="10" rx="5" fill="#7dd3fc"/>
+  <circle cx="186" cy="178" r="30" fill="#0b1220" stroke="#7dd3fc" stroke-width="4"/>
+  <path d="M186 160v8m0 20v8m-18-18h8m20 0h8m-24.7-9.3l5.7 5.7m14 14l5.7 5.7m0-25.4l-5.7 5.7m-14 14l-5.7 5.7" stroke="#7dd3fc" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="186" cy="178" r="6" fill="#7dd3fc"/>
+  <path d="M126 212h84" stroke="#4ade80" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+</svg>

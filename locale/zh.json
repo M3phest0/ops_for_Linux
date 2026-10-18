@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Linux Ops 工具集",
+    "description": "面向 Linux 的 DSH 基础操作工具：紧凑的 grep、glob、inspect、replace，以及感知沙箱的 bash 执行器。"
+  }
+}

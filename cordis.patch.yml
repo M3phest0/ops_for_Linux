@@ -1,0 +1,17 @@
+# dsh-linux-ops bundle: mounts the Linux base-operations plugin into the host
+# composition of a dsh profile. The plugin registers ops_* tools in the shared
+# tool registry and one short usage section in the global system prompt.
+#
+# Install: `dsh plugin --profile <name> add /absolute/path/to/dsh-linux-ops`
+# or the Web/Market bundle installer. Linux only; no shell is bundled.
+- insert:
+    - id: dsh-linux-ops
+      name: dsh-linux-ops
+      config:
+        enableFileTools: true
+        enableReplace: true
+        enableBashTool: true
+        promptPolicy: true
+        grepTimeoutMs: 30000
+        bashTimeoutMs: 120000
+        maxGrepResults: 200

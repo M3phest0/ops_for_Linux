@@ -1,0 +1,7 @@
+node_modules/
+dist/
+test/.tmp-*/
+.scan-tmp/
+*.tgz
+*.log
+.DS_Store

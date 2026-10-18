@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Linux Ops Toolset",
+    "description": "Linux-native base operations for DSH: compact grep, glob, inspect and replace tools plus a sandbox-aware bash runner."
+  }
+}
